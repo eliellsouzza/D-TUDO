@@ -21,14 +21,10 @@ function carregar() {
         const card = document.createElement("div");
         card.classList.add("card");
 
-
-  //CRIA OS ELEMENTOS PARA AS INFORMAÇÕES APPLE
+        //CRIA OS ELEMENTOS PARA AS INFORMAÇÕES APPLE
         const img = document.createElement("img");
         img.src = dados.image;
         img.alt = dados.name;
-
-
-         
 
         const titulo = document.createElement("h1");
         titulo.textContent = dados.name;
@@ -61,7 +57,6 @@ function carregar() {
 }
 carregar();
 
-  
 // api xiaomi
 
 function carregar1() {
@@ -74,14 +69,10 @@ function carregar1() {
         const cardX = document.createElement("div");
         cardX.classList.add("cardX");
 
-
-  //CRIA OS ELEMENTOS PARA AS INFORMAÇÕES APPLE
+        //CRIA OS ELEMENTOS PARA AS INFORMAÇÕES XIAOMI
         const img1 = document.createElement("img");
         img1.src = dados.image;
         img1.alt = dados.name;
-
-
-         
 
         const titulo = document.createElement("h1");
         titulo.textContent = dados.name;
@@ -113,5 +104,3 @@ function carregar1() {
     });
 }
 carregar1();
-
-  

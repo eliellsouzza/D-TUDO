@@ -84,10 +84,9 @@ header {
 .delivery-img img {
   margin-right: 10px;
   width: 80px;
-  animation: backInLeft; 
-  animation-duration: 2s; 
+  animation: backInLeft;
+  animation-duration: 2s;
 }
- 
 
 .delivery-p {
   width: 250px;
@@ -104,8 +103,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: pulse; 
-  animation-duration: 2s; 
+  animation: pulse;
+  animation-duration: 2s;
 }
 .logo-dtudo img {
   padding: 10px;
@@ -125,10 +124,9 @@ main {
   display: flex;
   font-family: "Gabarito";
   font-weight: bold;
-  animation: pulse; 
-  animation-duration: 2s; 
+  animation: pulse;
+  animation-duration: 2s;
 }
-
 
 .conteudo1 {
   width: 30vw;
@@ -167,7 +165,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   text-wrap: wrap;
-  
 }
 
 .card {
