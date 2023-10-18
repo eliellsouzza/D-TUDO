@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700;800;900&family=IBM+Plex+Sans:wght@300&family=Roboto:wght@400;700&display=swap");
+
+/* 
+font-family: "Gabarito", sans-serif;
+font-family: "IBM Plex Sans", sans-serif;
+font-family: "Roboto", sans-serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/background.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* loader da pagina  */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #010821;
+  border-radius: 50%;
+  animation: loading 1.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(2turn);
+  }
+}
+
+/* botão whatsapp */
+.btn-whatsapp {
+  text-decoration: none;
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* header */
+header {
+  width: 100vw;
+  height: 20vh;
+}
+
+.delivery-route {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8vh;
+  border-radius: 0px 0px 50px 50px;
+  background-color: #03063e;
+  color: white;
+  text-align: center;
+}
+
+.delivery-img img {
+  margin-right: 10px;
+  width: 80px;
+  animation: backInLeft; 
+  animation-duration: 2s; 
+}
+ 
+
+.delivery-p {
+  width: 250px;
+  height: 70px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gabarito";
+  font-weight: bold;
+}
+
+.logo-dtudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse; 
+  animation-duration: 2s; 
+}
+.logo-dtudo img {
+  padding: 10px;
+  width: 280px;
+}
+
+main {
+  width: 100vw;
+}
+
+.banner {
+  max-width: 90vw;
+  height: 13vh;
+  border-radius: 22px;
+  background-color: #201e1e;
+  margin-left: 20px;
+  display: flex;
+  font-family: "Gabarito";
+  font-weight: bold;
+  animation: pulse; 
+  animation-duration: 2s; 
+}
+
+
+.conteudo1 {
+  width: 30vw;
+
+  display: flex;
+  align-items: center;
+}
+.conteudo1 img {
+  width: 30vw;
+}
+
+.conteudo2 {
+  width: 35vw;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  margin-top: 7px;
+}
+
+.conteudo3 {
+  width: 30vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.conteudo3 img {
+  width: 20vw;
+}
+
+/* CARD DOS PRODUTOS  */
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-wrap: wrap;
+  
+}
+
+.card {
+  border: 5px solid #03063e;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  margin: 2px;
+  color: white;
+  font-family: "Gabarito";
+  font-weight: bold;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.container-card-xiaomi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-wrap: wrap;
+}
+
+.cardX {
+  border: 5px solid #03063e;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  margin: 2px;
+  color: white;
+  font-family: "Gabarito";
+  font-weight: bold;
+}
+
+.cardX img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* rodape */
+
+footer {
+  background-color: #010821;
+  width: 100vw;
+  height: 15vh;
+  border-radius: 50px 50px 0px 0px;
+  color: #ffffff;
+  font-family: "Gabarito";
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px 30px;
+}
+
+a {
+  color: #ffffff;
+  font-family: "Gabarito";
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-network .instagram,
+.whatsapp {
+  display: flex;
+}
+
+.pay-house {
+  width: 250px;
+  height: 70px;
+  text-align: center;
+  word-wrap: break-word;
+}

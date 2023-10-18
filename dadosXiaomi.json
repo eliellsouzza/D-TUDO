@@ -1,0 +1,44 @@
+ [
+    {
+      "id": "001",
+      "name": "REDMI 9A",
+      "price": "R$: 550,00",
+      "image": "./assets/img/Redmi 9A Preto.png",
+      "description": "This is the description of Product 1.",
+      "colors": ["PRETO | VERDE"],
+      "size": "32GB",
+      "memory": "2GB RAM"
+    },
+    {
+      "id": "002",
+      "name": "REDMI A1",
+      "price": "R$: 600,00",
+      "image": "./assets/img/REDMI A1.png",
+      "description": "Description for Product 2.",
+      "colors": ["PRETO | AZUL"],
+      "size": "32GB",
+      "memory": "2GB RAM"
+    },
+    {
+      "id": "003",
+      "name": "REDMI 12C",
+      "price": "R$: 850,00",
+      "image": "./assets/img/redmi12c.png",
+      "description": "Description for Product 2.",
+      "colors": ["VERDE | LILÁS | AZUL | PRETO"],
+      "size": "128GB",
+      "memory": "4GB RAM"
+    },
+    { 
+    "id": "004",
+    "name": "REDMI 12",
+    "price": "R$: 1000,00",
+    "image": "./assets/img/redmi12.png",
+    "description": "Description for Product 2.",
+    "colors": ["PRATA | PRETO | AZUL"],
+    "size": "128GB",
+    "memory": "4GB"
+    } 
+     
+  ]
+ 

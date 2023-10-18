@@ -1,0 +1,43 @@
+ [
+    {
+      "id": "001",
+      "name": "IPHONE 8 PLUS",
+      "price": "R$: 1300,00",
+      "image": "./assets/img/iPhone-8-Plus.png",
+      "description": "This is the description of Product 1.",
+      "colors": ["DOURADO | BRANCO"],
+      "size": "64GB",
+      "memory": "3GB RAM"
+    },
+    {
+      "id": "002",
+      "name": "IPHONE XR",
+      "price": "R$: 1600,00",
+      "image": "./assets/img/iPhone-xr.png",
+      "description": "Description for Product 2.",
+      "colors": ["PRETO | BRANCO"],
+      "size": "64GB",
+      "memory": "3GB RAM"
+    },
+    {
+      "id": "003",
+      "name": "IPHONE 11",
+      "price": "R$: 2100,00",
+      "image": "./assets/img/iphone11.png",
+      "description": "Description for Product 2.",
+      "colors": ["LILÁS | BRANCO | PRETO |VERDE"],
+      "size": "64GB",
+      "memory": "4GB"
+    },
+    { 
+    "id": "004",
+    "name": "IPHONE 11 PRO MAX",
+    "price": "R$: 3000,00",
+    "image": "./assets/img/iphone11pro.png",
+    "description": "Description for Product 2.",
+    "colors": ["BRANCO | DOURADO"],
+    "size": "64GB",
+    "memory": "4GB"
+    }
+  ]
+ 
