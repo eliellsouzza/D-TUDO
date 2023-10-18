@@ -254,3 +254,38 @@ a {
   text-align: center;
   word-wrap: break-word;
 }
+
+@media (min-width: 600px) {
+  .banner {
+    max-width: 100%;
+    height: 13vh;
+    border-radius: 22px;
+    background-color: #201e1e;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gabarito";
+    font-weight: bold;
+    animation: pulse;
+    animation-duration: 2s;
+  }
+  .conteudo1 img {
+    width: 10vw;
+  }
+
+  .conteudo3 img {
+    width: 5vw;
+    margin-right: 50px;
+  }
+
+  .conteudo2 {
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+  }
+}
