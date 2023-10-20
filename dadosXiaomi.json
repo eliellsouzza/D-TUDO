@@ -92,7 +92,7 @@
     { 
     "id": "010",
     "name": "REDMI NOTE 12S 4G",
-    "price": "R$: 1300,00",
+    "price": "R$: 1400,00",
     "image": "./assets/img/redmi12s.png",
     "description": "Description for Product 2.",
     "colors": ["VERDE | PRETO | AZUL"],
@@ -101,13 +101,13 @@
     },
     { 
     "id": "011",
-    "name": "REDMI NOTE 12 PRO 4G",
-    "price": "R$: 1600,00",
+    "name": "REDMI NOTE 12 PRO 5G",
+    "price": "R$: 1800,00",
     "image": "./assets/img/redmi12pro.png",
     "description": "Description for Product 2.",
     "colors": ["PRATA | PRETO | AZUL"],
-    "size": "256GB",
-    "memory": "4GB RAM"
+    "size": "128GB",
+    "memory": "6GB RAM"
     }
   ]
  
