@@ -27,7 +27,7 @@
       "description": "Description for Product 2.",
       "colors": ["LILÁS | BRANCO | PRETO |VERDE"],
       "size": "64GB",
-      "memory": "4GB"
+      "memory": "4GB RAM"
     },
     { 
     "id": "004",
@@ -37,7 +37,7 @@
     "description": "Description for Product 2.",
     "colors": ["BRANCO | DOURADO"],
     "size": "64GB",
-    "memory": "4GB"
+    "memory": "4GB RAM"
     }
   ]
  
