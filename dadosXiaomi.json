@@ -63,7 +63,7 @@
     "id": "007",
     "name": "REDMI NOTE 12",
     "price": "R$: 1100,00",
-    "image": "./assets/img/redmi12.png",
+    "image": "./assets/img/redminote12.png",
     "description": "Description for Product 2.",
     "colors": ["PRATA | PRETO | AZUL"],
     "size": "128GB",
