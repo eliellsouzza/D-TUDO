@@ -215,16 +215,20 @@ main {
 
 
  .encomendas {
-  max-width: 90vw;
+  max-width: 100vw;
   height: 13vh;
   border-radius: 22px;
   background-color: #201e1e;
-  margin-left: 20px;
+  margin-left: 0px;
   display: flex;
   font-family: "Gabarito";
   font-weight: bold;
   animation: pulse;
   animation-duration: 2s;
+  display: flex;
+justify-content: center;
+align-items: center;
+ 
   
 }
 
@@ -235,7 +239,10 @@ align-items: center;
 color: white;
 font-size: 22px;
 text-align: center;
-text-wrap: wrap
+text-wrap: wrap;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -245,6 +252,10 @@ height: 130px;
 animation: pulse;
 animation-duration: 2s;
 margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 /* rodape */
 
@@ -304,6 +315,7 @@ a {
     font-weight: bold;
     animation: pulse;
     animation-duration: 2s;
+
   }
   .conteudo1 img {
     width: 10vw;
